@@ -69,7 +69,7 @@ def monotonicity_score(
 - Score between 0 and 1, or
 - Tuple of (score, details_dict) if return_details=True
 
-### Enhanced Neural Network
+### Enh Neural Network
 ```python
 class EnhancedModel(nn.Module):
     def __init__(
