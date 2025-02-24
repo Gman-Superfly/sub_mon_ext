@@ -109,6 +109,7 @@ for name, seq in sequences.items():
 - Sublinear complexity: `O((1/ε) log n)`
 - Vectorized violation counting
 - Configurable accuracy vs. speed trade-off via epsilon
+- ...^^Note^^... The score is approximate due to sublinear sampling; small noise (e.g., std=0.1) might not lower it from 1.0 unless `epsilon` is reduced or noise increased.
 
 ### Memory Usage
 - Efficient tensor operations
