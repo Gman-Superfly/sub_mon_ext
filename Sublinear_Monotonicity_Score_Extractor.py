@@ -3,6 +3,7 @@
 Sublinear Monotonicity Score Extractor
 A sublinear time tool to compute monotonicity scores for 1D sequences in PyTorch.
 Useful for ML preprocessing, feature engineering, and interpretability.
+You can find the ref to the 2011 paper in readme. ps: it has other fun stuff you might find useful.
 """
 
 import torch
