@@ -32,7 +32,7 @@ score, details = monotonicity_score(sequence, epsilon=0.1, return_details=True)
 print(f"Details: {details}")
 ```
 
-### Neural Network Integration
+### NN Integration
 ```python
 from monotonicity_score import EnhancedModel
 
