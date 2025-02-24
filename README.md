@@ -1,6 +1,6 @@
 # Sublinear Monotonicity Score Extractor
 
-## What It Does
+## What Dis?
 This code provides a **monotonicity score** for 1D sequences (e.g., time series or ordered features), measuring how close they are to being monotonically increasing:
 - **Score = 1.0**: Fully monotone (e.g., `[1, 2, 3, 4]`)
 - **Score = 0.0**: Highly non-monotone (e.g., `[4, 3, 2, 1]` or random)
